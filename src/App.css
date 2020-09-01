@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  width: 400px;
+  border: 1px solid #eee;
+  margin: auto;
+}
+.App .header {
+  display: flex;
+  margin-left: 10px;
+  padding: 15px 5px;
+  font-family: "Segoe UI light";
+  border-bottom: 1px solid #7d7a7ac4;
+  opacity: 0.3;
+}
+.App .header input {
+  padding-left: 10px;
+  font-size: 20px;
+  width: 100%;
+  border: none;
+}
+.App .header input:focus {
+  outline: none;
+}
+/* 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+ */
+.App-link {
+  color: #61dafb;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 5px;
+}
+.footer button {
+  font-size: 15px;
+  border: none;
+  background: #f1f1f18a;
+  padding: 10px 42px;
+}
+.footer button:hover {
+  font-weight: bold;
+  background: #6b69698a;
+}
+.footer button:focus {
+  outline: none;
+}
